@@ -3,14 +3,14 @@
 And after clicking on "Register" button server side language(Used PHP) transfer the data to Mysql Database.</p>
 <h2>Features of this Registration Page:</h2>
 <ul>
-  <li>Before transfering data,PHP will check that if Userid is already registered or not.</li>
+  <li>Before transfering data,PHP will check that if Userid is already registered or not.</li><br>
   
    ![Screenshot (62)](https://user-images.githubusercontent.com/77070662/209958969-ca4b4150-60d5-4a80-8953-8defe44eeb0c.png)
   
   
   <li>Before transfering data,PHP will also check that if Phone no is already registered or not.</li>
     
-  <li>After Successfull transfering data it will show the prompt</li>
+  <li>After Successfull transfering data it will show the prompt</li><br>
   
   
   
@@ -21,6 +21,10 @@ And after clicking on "Register" button server side language(Used PHP) transfer 
   
   
 </ul>
+
+<h4>Registration Page is fully responsive ex. it is properly display on both laptop screen and mobile screen.</h4><br>
+
+
 
 
 ![1](https://user-images.githubusercontent.com/77070662/209959042-b7e1578d-ea75-478d-8c6e-d806ce9d9822.png)
