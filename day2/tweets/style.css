@@ -1,0 +1,143 @@
+body{
+    background-color: #264653;
+}
+.phone{
+    border: 8px solid whitesmoke;
+    border-radius: 10px;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color:#57cc99;
+}
+.phone h1{
+    font-size: 55px;
+}
+.label{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.button{
+    font-size: 14px;
+    color: whitesmoke;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0 12px;
+    height: 36px;
+    background-color: #0066ff;
+}
+/* after clicking button */
+.m{
+    display: flex;
+    justify-content: center;
+}
+/* .like{
+    width: 30%;
+} */
+.like button{
+    border: none;
+    background-color: #57cc99;
+    display: block;
+}
+#count{
+    font-size: 15px;
+    font-weight: 300;
+}
+#userid{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    /* display: flex;
+    align-items: baseline; */
+}
+.like p{
+    font-size: 10px;
+    color: red;
+    width:150px;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #ffb703;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fname{
+    /* display: flex;
+    align-items: baseline; */
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width:1000px){
+    .phone{
+        width: 700px;
+    }
+    .phone h1{
+      font-size: 50px;
+     }
+     .like{
+       width: 30%;
+    }
+}
+@media screen and (max-width:750px){
+    .phone{
+        width: 500px;
+    }
+    .phone h1{
+      font-size: 40px;
+     }
+    .label{
+       font-size: 17px;
+       margin-right: 5px;
+    }
+    .like{
+       width: 35%;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .phone{
+        width: 300px;
+    }
+    .phone h1{
+      font-size: 30px;
+     }
+    input{
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px 0;
+        padding: 5px;
+        text-align: center;
+    }
+    .like{
+       width: 55%;
+    }
+    
+}
+@media screen and (max-width:350px){
+    .phone{
+        width: 240px;
+    }
+    .phone h1{
+      font-size: 30px;
+     }
+    .like{
+       width: 75%;
+    }
+    
+}
+@media screen and (max-width:250px){
+    .phone{
+        width: 200px;
+    }
+    .phone h1{
+      font-size: 25px;
+     }
+    .like{
+       width: 90%;
+    }
+    
+}
